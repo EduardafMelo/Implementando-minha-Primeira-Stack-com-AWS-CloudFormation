@@ -1,6 +1,6 @@
 # Implementando-minha-Primeira-Stack-com-AWS-CloudFormation
 
-# 📝 Anotações - Laboratório AWS CloudFormation
+# 📝Laboratório AWS CloudFormation
 
 Este repositório contém minhas **anotações detalhadas** durante a prática do laboratório **“Implementando sua Primeira Stack com AWS CloudFormation”**.  
 Aqui registro tudo que aprendi, erros, soluções e insights importantes para referência futura.
