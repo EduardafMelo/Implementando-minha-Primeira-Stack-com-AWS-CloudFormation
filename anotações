@@ -1,0 +1,75 @@
+# 📝 Anotações - Laboratório AWS CloudFormation
+
+Este repositório contém minhas **anotações detalhadas** durante a prática do laboratório **“Implementando sua Primeira Stack com AWS CloudFormation”**.
+
+---
+
+## 3️⃣ Validando o Template
+
+**Passos:**  
+- Console AWS → CloudFormation → Criar stack → Carregar template → Validar template  
+
+**Erros comuns:**  
+- Sintaxe YAML incorreta  
+- Nome de recurso duplicado  
+- Permissões insuficientes  
+
+**💡 Insight:**  
+Sempre valide antes de criar a stack para evitar retrabalho.
+
+---
+
+## 4️⃣ Criando a Stack
+
+**Passos:**  
+- Escolher um **nome único** para a stack  
+- Confirmar template e configurações  
+- Acompanhar progresso: `CREATE_IN_PROGRESS → CREATE_COMPLETE`  
+
+**💡 Insights:**  
+- Anotar **IDs de recursos e outputs** da stack ajuda na depuração.  
+- Se ocorrer erro, analisar logs no console e ajustar template.
+
+---
+
+## 5️⃣ Capturas de Tela
+
+> Salve prints da stack criada e outputs. Exemplo de imagens fictícias para repositório:
+
+![Exemplo de Stack](images/exemplo-stack.png)  
+![Console CloudFormation](images/console.png)
+
+---
+
+## 6️⃣ Dicas e Boas Práticas
+
+- Versionar seus templates no GitHub sempre.  
+- Modularizar templates grandes em arquivos menores facilita manutenção.  
+- Documentar cada passo evita confusão em projetos futuros.  
+- Testar pequenas stacks primeiro antes de criar recursos complexos.
+
+---
+
+## 7️⃣ Erros e Soluções
+
+| Erro | Causa | Solução |
+|------|-------|---------|
+| Nome de bucket duplicado | Bucket já existe | Alterar nome para algo único |
+| Permissão negada | IAM insuficiente | Ajustar permissões IAM |
+| Sintaxe YAML inválida | Espaços ou indentação errada | Revisar YAML linha a linha |
+
+---
+
+## 8️⃣ Conclusão
+
+- CloudFormation permite **automatizar criação e gerenciamento de recursos** na AWS.  
+- Documentar o passo a passo consolidou aprendizado e facilita **referência futura**.  
+- Próximo passo: criar stacks mais complexas incluindo **EC2, IAM e DynamoDB**.
+
+---
+
+## 💡 Insights Gerais
+
+- Nomear recursos de forma clara ajuda na identificação depois.  
+- YAML é mais legível que JSON, mas ambos funcionam.  
+- Pequenas stacks ajudam a testar antes de criar recursos complexos.
